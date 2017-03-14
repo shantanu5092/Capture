@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.shantanuvashishtha.capture.MainActivity">
+
+    <Button
+        android:id="@+id/exit"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Exit"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:layout_below="@+id/send"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="44dp" />
+
+    <Button
+        android:id="@+id/configure"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Configure"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:layout_marginBottom="19dp"
+        android:layout_alignLeft="@id/exit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/camera"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Click"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:layout_alignBaseline="@+id/exit"
+        android:layout_alignBottom="@+id/exit"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:text="Send"
+        android:textAllCaps="false"
+        android:textSize="25sp"
+        android:id="@+id/send"/>
+
+</RelativeLayout>
