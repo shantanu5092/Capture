@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.shantanuvashishtha.capture">
+
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- // This is to request permission to access the camera. -->
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="true" />                               <!-- This is to access the back facing camera. -->
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <!-- This feature is for AutoFocus. -->
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".config" />
+        <activity android:name=".camera"
+            android:exported="true"></activity>
+    </application>
+
+</manifest>

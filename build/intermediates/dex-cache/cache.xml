@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/shantanuvashishtha/Downloads/Capture/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/shantanuvashishtha/Downloads/Capture/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_017e6a7128aca69b97064db16c09c3dc5d8ef77b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/shantanuvashishtha/Downloads/Capture/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.0"
+        sha1="d5960e2a13a7165f5dfe28b510d58db2b0946edd">
+        <dex dex="/Users/shantanuvashishtha/Downloads/Capture/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_9a647624830c64492c457e0c9f194bf971a0ffe8/classes.dex" />
+    </item>
+
+</items>
